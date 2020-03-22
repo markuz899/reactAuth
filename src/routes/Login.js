@@ -15,7 +15,7 @@ const Login = props => {
 
   const postLogin = () => {
     if (userName && password == "ciao") {
-      setAuthTokens(true);
+      setAuthTokens("quiauthtokenquandocisaràlachiamata");
       setLoggedIn(true);
     } else {
       setIsError(true);
