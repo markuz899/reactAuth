@@ -1,5 +1,15 @@
 {
-  "id": 1,
-  "username": "fake@fake.com",
-  "password": "ciao"
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "username": "ciao",
+    "password": "ciao"
+  }
 }
